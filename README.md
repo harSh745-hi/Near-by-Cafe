@@ -1,16 +1,23 @@
-# React + Vite
+## Project Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The find nearby Cafe's app is an interactive web application built using React and React Leaflet. It displays the user’s current location and nearby cafés in the Swargate area. Café data is read from a static JSON file, and users can click on a café in the sidebar to zoom to its location on the map. This project demonstrates state management, map integration, and dynamic UI updates.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-- Displays user’s current location on the map.
 
-## React Compiler
+-- Shows markers for nearby cafés from a static JSON file.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-- Sidebar list of cafés; clicking a café zooms the map to its location.
 
-## Expanding the ESLint configuration
+-- Default map center on Swargate if the user denies location access.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-- Built with React + React Leaflet and OpenStreetMap tiles.
+
+## install Dependencies 
+-- npm install 
+## run development server
+-- npm run dev
+## Open the provided URL -[ http://localhost:5173/ ]
+
+
