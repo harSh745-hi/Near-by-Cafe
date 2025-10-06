@@ -1,0 +1,8 @@
+
+[
+  {"name": "Cafe Blænd", "lat": 18.5089,"lng": 73.8562 },
+  {"name": "Kiosk Kaffee", "lat": 18.5056,"lng": 73.8575},
+  { "name": "Salisbury Swiss Cafe", "lat": 18.5092, "lng": 73.8570},
+  { "name": "Hopscotch Cafe",  "lat": 18.5070, "lng": 73.8548},
+  { "name": "Neha Cafe" ,  "lat": 18.5065, "lng": 73.8550}
+]
